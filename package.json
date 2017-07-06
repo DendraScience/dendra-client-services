@@ -1,10 +1,14 @@
 {
-  "name": "dendra-client-services",
+  "name": "@dendra-science/client-services",
   "version": "0.0.1",
   "description": "Dendra/Feathers services provider for client-side use.",
   "license": "BSD-2-Clause-FreeBSD",
   "author": "J. Scott Smith <scott@newleafsolutionsinc.com>",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DendraScience/dendra-client-services.git"
+  },
   "scripts": {
     "babel": "babel src -d dist",
     "build": "npm run lint && npm run clean && npm run babel",

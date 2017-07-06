@@ -2,7 +2,7 @@
  * Main tests
  */
 
-describe('Test', function () {
+describe('Module', function () {
   const config = {
     io: {
       options: {
